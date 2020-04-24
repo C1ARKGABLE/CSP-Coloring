@@ -16,36 +16,38 @@ def promising(color, neighbors, states_dict):
     return True
 
 
-# def color_for_state(state, states_dict):
-#     for color in states_dict[state]["valid"]:
-#         if promising(color, states_dict[state]["constraints"], states_dict):
-#             return color
-
-
-# def csp_dfs(states, states_dict):
-#     for state in states:
-#         states_dict[state]["color"] = color_for_state(state, states_dict)
-
-#     return states_dict
-
-
 def csp_dfs(
     states, states_dict, index=0, fwd=False, single=False,
 ):
-    states_dict_copy = states_dict.copy()
-
-    # if "" not in [states_dict[state]["color"] for state in states]:
-    #     return states_dict
     if index >= len(states):
-        return states_dict
+        return states_dict, False
     else:
         state = states[index]
+
+    if "" not in [states_dict[x]["color"] for x in states]:
+        return states_dict, True
+    else:
+        states_dict_copy = states_dict.copy()
         for color in states_dict[state]["valid"]:
-            if promising(color, states_dict[state]["constraints"], states_dict):
+            neighbors = states_dict[state]["constraints"]
+            if promising(color, neighbors, states_dict):
+                for neighbor in neighbors:
+                    if len(states_dict[neighbor]["valid"]) <= 0:
+                        return states_dict_copy, False
+                    elif fwd:
+                        try:
+                            states_dict[neighbor]["valid"].remove(color)
+                        except ValueError:
+                            pass
+
                 states_dict[state]["color"] = color
-                states_dict = csp_dfs(
+
+                states_dict, valid = csp_dfs(
                     states, states_dict, index=index + 1, fwd=fwd, single=single,
                 )
+                if valid:
+                    print(f"{state} assigned {color}")
+                    return states_dict, True
 
             # if fwd:
             #     for neighbor in states_dict[state]["constraints"]:
@@ -59,18 +61,18 @@ def csp_dfs(
             #             valid_colors[neighbor] = set([single_valid_color])
             #             index += 1
 
-        return states_dict_copy
+        return states_dict_copy, False
 
 
 def order_states(states_dict, hueristic=None):
     states = list(states_dict.keys())
 
     if hueristic == "MRV":
-        return states
+        pass
     elif hueristic == "Degree Constraint":
-        return states
+        pass
     elif hueristic == "Least Constraining Value":
-        return states
+        pass
     else:
         random.shuffle(states)
 
@@ -88,7 +90,7 @@ if __name__ == "__main__":
     for state in states:
         states_dict[state]["valid"] = valid_colors
 
-    final_dict = csp_dfs(states, states_dict)
+    final_dict, _ = csp_dfs(states, states_dict, fwd=True)
 
     fig = go.Figure(
         px.choropleth(
