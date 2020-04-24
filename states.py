@@ -27,6 +27,7 @@ def csp_dfs(
     if "" not in [states_dict[x]["color"] for x in states]:
         return states_dict, True
     else:
+
         states_dict_copy = states_dict.copy()
         for color in states_dict[state]["valid"]:
             neighbors = states_dict[state]["constraints"]

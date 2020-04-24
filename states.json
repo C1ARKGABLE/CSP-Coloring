@@ -1,0 +1,477 @@
+{
+    "US.AL": {
+        "color": "",
+        "constraints": [
+            "US.MS",
+            "US.TN",
+            "US.FL",
+            "US.GA"
+        ]
+    },
+    "US.AK": {
+        "color": "",
+        "constraints": []
+    },
+    "US.AZ": {
+        "color": "",
+        "constraints": [
+            "US.NV",
+            "US.NM",
+            "US.UT",
+            "US.CA",
+            "US.CO"
+        ]
+    },
+    "US.AR": {
+        "color": "",
+        "constraints": [
+            "US.OK",
+            "US.TN",
+            "US.TX",
+            "US.LA",
+            "US.MS",
+            "US.MO"
+        ]
+    },
+    "US.CA": {
+        "color": "",
+        "constraints": [
+            "US.OR",
+            "US.AZ",
+            "US.NV"
+        ]
+    },
+    "US.CO": {
+        "color": "",
+        "constraints": [
+            "US.NM",
+            "US.OK",
+            "US.UT",
+            "US.WY",
+            "US.AZ",
+            "US.KS",
+            "US.NE"
+        ]
+    },
+    "US.CT": {
+        "color": "",
+        "constraints": [
+            "US.NY",
+            "US.RI",
+            "US.MA"
+        ]
+    },
+    "US.DC": {
+        "color": "",
+        "constraints": [
+            "US.MD",
+            "US.VA"
+        ]
+    },
+    "US.DE": {
+        "color": "",
+        "constraints": [
+            "US.NJ",
+            "US.PA",
+            "US.MD"
+        ]
+    },
+    "US.FL": {
+        "color": "",
+        "constraints": [
+            "US.GA",
+            "US.AL"
+        ]
+    },
+    "US.GA": {
+        "color": "",
+        "constraints": [
+            "US.NC",
+            "US.SC",
+            "US.TN",
+            "US.AL",
+            "US.FL"
+        ]
+    },
+    "US.HI": {
+        "color": "",
+        "constraints": []
+    },
+    "US.ID": {
+        "color": "",
+        "constraints": [
+            "US.UT",
+            "US.WA",
+            "US.WY",
+            "US.MT",
+            "US.NV",
+            "US.OR"
+        ]
+    },
+    "US.IL": {
+        "color": "",
+        "constraints": [
+            "US.KY",
+            "US.MO",
+            "US.WI",
+            "US.IN",
+            "US.IA",
+            "US.MI"
+        ]
+    },
+    "US.IN": {
+        "color": "",
+        "constraints": [
+            "US.MI",
+            "US.OH",
+            "US.IL",
+            "US.KY"
+        ]
+    },
+    "US.IA": {
+        "color": "",
+        "constraints": [
+            "US.NE",
+            "US.SD",
+            "US.WI",
+            "US.IL",
+            "US.MN",
+            "US.MO"
+        ]
+    },
+    "US.KS": {
+        "color": "",
+        "constraints": [
+            "US.NE",
+            "US.OK",
+            "US.CO",
+            "US.MO"
+        ]
+    },
+    "US.KY": {
+        "color": "",
+        "constraints": [
+            "US.TN",
+            "US.VA",
+            "US.WV",
+            "US.IL",
+            "US.IN",
+            "US.MO",
+            "US.OH"
+        ]
+    },
+    "US.LA": {
+        "color": "",
+        "constraints": [
+            "US.TX",
+            "US.AR",
+            "US.MS"
+        ]
+    },
+    "US.ME": {
+        "color": "",
+        "constraints": [
+            "US.NH"
+        ]
+    },
+    "US.MD": {
+        "color": "",
+        "constraints": [
+            "US.VA",
+            "US.WV",
+            "US.DE",
+            "US.PA",
+            "US.DC"
+        ]
+    },
+    "US.MA": {
+        "color": "",
+        "constraints": [
+            "US.NY",
+            "US.RI",
+            "US.VT",
+            "US.CT",
+            "US.NH"
+        ]
+    },
+    "US.MI": {
+        "color": "",
+        "constraints": [
+            "US.OH",
+            "US.WI",
+            "US.IL",
+            "US.IN",
+            "US.MN"
+        ]
+    },
+    "US.MN": {
+        "color": "",
+        "constraints": [
+            "US.ND",
+            "US.SD",
+            "US.WI",
+            "US.IA",
+            "US.MI"
+        ]
+    },
+    "US.MS": {
+        "color": "",
+        "constraints": [
+            "US.LA",
+            "US.TN",
+            "US.AL",
+            "US.AR"
+        ]
+    },
+    "US.MO": {
+        "color": "",
+        "constraints": [
+            "US.NE",
+            "US.OK",
+            "US.TN",
+            "US.AR",
+            "US.IL",
+            "US.IA",
+            "US.KS",
+            "US.KY"
+        ]
+    },
+    "US.MT": {
+        "color": "",
+        "constraints": [
+            "US.SD",
+            "US.WY",
+            "US.ID",
+            "US.ND"
+        ]
+    },
+    "US.NE": {
+        "color": "",
+        "constraints": [
+            "US.MO",
+            "US.SD",
+            "US.WY",
+            "US.CO",
+            "US.IA",
+            "US.KS"
+        ]
+    },
+    "US.NV": {
+        "color": "",
+        "constraints": [
+            "US.ID",
+            "US.OR",
+            "US.UT",
+            "US.AZ",
+            "US.CA"
+        ]
+    },
+    "US.NH": {
+        "color": "",
+        "constraints": [
+            "US.VT",
+            "US.ME",
+            "US.MA"
+        ]
+    },
+    "US.NJ": {
+        "color": "",
+        "constraints": [
+            "US.PA",
+            "US.DE",
+            "US.NY"
+        ]
+    },
+    "US.NM": {
+        "color": "",
+        "constraints": [
+            "US.OK",
+            "US.TX",
+            "US.UT",
+            "US.AZ",
+            "US.CO"
+        ]
+    },
+    "US.NY": {
+        "color": "",
+        "constraints": [
+            "US.PA",
+            "US.VT",
+            "US.CT",
+            "US.MA",
+            "US.NJ"
+        ]
+    },
+    "US.NC": {
+        "color": "",
+        "constraints": [
+            "US.TN",
+            "US.VA",
+            "US.GA",
+            "US.SC"
+        ]
+    },
+    "US.ND": {
+        "color": "",
+        "constraints": [
+            "US.SD",
+            "US.MN",
+            "US.MT"
+        ]
+    },
+    "US.OH": {
+        "color": "",
+        "constraints": [
+            "US.MI",
+            "US.PA",
+            "US.WV",
+            "US.IN",
+            "US.KY"
+        ]
+    },
+    "US.OK": {
+        "color": "",
+        "constraints": [
+            "US.MO",
+            "US.NM",
+            "US.TX",
+            "US.AR",
+            "US.CO",
+            "US.KS"
+        ]
+    },
+    "US.OR": {
+        "color": "",
+        "constraints": [
+            "US.NV",
+            "US.WA",
+            "US.CA",
+            "US.ID"
+        ]
+    },
+    "US.PA": {
+        "color": "",
+        "constraints": [
+            "US.NY",
+            "US.OH",
+            "US.WV",
+            "US.DE",
+            "US.MD",
+            "US.NJ"
+        ]
+    },
+    "US.RI": {
+        "color": "",
+        "constraints": [
+            "US.MA",
+            "US.CT"
+        ]
+    },
+    "US.SC": {
+        "color": "",
+        "constraints": [
+            "US.NC",
+            "US.GA"
+        ]
+    },
+    "US.SD": {
+        "color": "",
+        "constraints": [
+            "US.NE",
+            "US.ND",
+            "US.WY",
+            "US.IA",
+            "US.MN",
+            "US.MT"
+        ]
+    },
+    "US.TN": {
+        "color": "",
+        "constraints": [
+            "US.MS",
+            "US.MO",
+            "US.NC",
+            "US.VA",
+            "US.AL",
+            "US.AR",
+            "US.GA",
+            "US.KY"
+        ]
+    },
+    "US.TX": {
+        "color": "",
+        "constraints": [
+            "US.NM",
+            "US.OK",
+            "US.AR",
+            "US.LA"
+        ]
+    },
+    "US.UT": {
+        "color": "",
+        "constraints": [
+            "US.NV",
+            "US.NM",
+            "US.WY",
+            "US.AZ",
+            "US.CO",
+            "US.ID"
+        ]
+    },
+    "US.VT": {
+        "color": "",
+        "constraints": [
+            "US.NH",
+            "US.NY",
+            "US.MA"
+        ]
+    },
+    "US.VA": {
+        "color": "",
+        "constraints": [
+            "US.NC",
+            "US.TN",
+            "US.WV",
+            "US.KY",
+            "US.MD",
+            "US.DC"
+        ]
+    },
+    "US.WA": {
+        "color": "",
+        "constraints": [
+            "US.OR",
+            "US.ID"
+        ]
+    },
+    "US.WV": {
+        "color": "",
+        "constraints": [
+            "US.PA",
+            "US.VA",
+            "US.KY",
+            "US.MD",
+            "US.OH"
+        ]
+    },
+    "US.WI": {
+        "color": "",
+        "constraints": [
+            "US.MI",
+            "US.MN",
+            "US.IL",
+            "US.IA"
+        ]
+    },
+    "US.WY": {
+        "color": "",
+        "constraints": [
+            "US.NE",
+            "US.SD",
+            "US.UT",
+            "US.CO",
+            "US.ID",
+            "US.MT"
+        ]
+    }
+}

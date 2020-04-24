@@ -1,0 +1,63 @@
+{
+    "AU.NSW": {
+        "color": "",
+        "constraints": [
+            "AU.VT",
+            "AU.QL",
+            "AU.ACT"
+        ]
+    },
+    "AU.VT": {
+        "color": "",
+        "constraints": [
+            "AU.NSW",
+            "AU.SA",
+            "AU.TS"
+        ]
+    },
+    "AU.QL": {
+        "color": "",
+        "constraints": [
+            "AU.NSW",
+            "AU.NT",
+            "AU.SA"
+        ]
+    },
+    "AU.SA": {
+        "color": "",
+        "constraints": [
+            "AU.VT",
+            "AU.WA",
+            "AU.NSW",
+            "AU.QL",
+            "AU.NT"
+        ]
+    },
+    "AU.WA": {
+        "color": "",
+        "constraints": [
+            "AU.SA",
+            "AU.NT"
+        ]
+    },
+    "AU.TS": {
+        "color": "",
+        "constraints": [
+            "AU.VT"
+        ]
+    },
+    "AU.NT": {
+        "color": "",
+        "constraints": [
+            "AU.QL",
+            "AU.WA",
+            "AU.SA"
+        ]
+    },
+    "AU.ACT": {
+        "color": "",
+        "constraints": [
+            "AU.NSW"
+        ]
+    }
+}

@@ -1,0 +1,201 @@
+
+strict graph states {
+Alabama -- Mississippi
+Alabama -- Tennessee
+Alabama -- Florida
+Alabama -- Georgia;
+Alaska;
+Arizona -- Nevada 
+Arizona -- NewMexico 
+Arizona -- Utah 
+Arizona -- California 
+Arizona -- Colorado;
+Arkansas -- Oklahoma 
+Arkansas -- Tennessee
+Arkansas -- Texas
+Arkansas -- Louisiana
+Arkansas -- Mississippi
+Arkansas -- Missouri;
+California -- Oregon
+California -- Arizona
+California -- Nevada;
+Colorado -- NewMexico
+Colorado -- Oklahoma
+Colorado -- Utah
+Colorado -- Wyoming
+Colorado -- Arizona
+Colorado -- Kansas
+Colorado -- Nebraska;
+Connecticut -- NewYork
+Connecticut -- RhodeIsland
+Connecticut -- Massachusetts;
+Delaware -- NewJersey
+Delaware -- Pennsylvania
+Delaware -- Maryland;
+Florida -- Georgia
+Florida -- Alabama;
+Georgia -- NorthCarolina
+Georgia -- SouthCarolina
+Georgia -- Tennessee
+Georgia -- Alabama
+Georgia -- Florida;
+Hawaii;
+Idaho -- Utah
+Idaho -- Washington
+Idaho -- Wyoming
+Idaho -- Montana
+Idaho -- Nevada
+Idaho -- Oregon;
+Illinois -- Kentucky
+Illinois -- Missouri
+Illinois -- Wisconsin
+Illinois -- Indiana
+Illinois -- Iowa
+Illinois -- Michigan;
+Indiana -- Michigan
+Indiana -- Ohio
+Indiana -- Illinois
+Indiana -- Kentucky;
+Iowa -- Nebraska
+Iowa -- SouthDakota
+Iowa -- Wisconsin
+Iowa -- Illinois
+Iowa -- Minnesota
+Iowa -- Missouri;
+Kansas -- Nebraska
+Kansas -- Oklahoma
+Kansas -- Colorado
+Kansas -- Missouri;
+Kentucky -- Tennessee
+Kentucky -- Virginia
+Kentucky -- WestVirginia
+Kentucky -- Illinois
+Kentucky -- Indiana
+Kentucky -- Missouri
+Kentucky -- Ohio;
+Louisiana -- Texas
+Louisiana -- Arkansas
+Louisiana -- Mississippi;
+Maine -- NewHampshire;
+Maryland -- Virginia
+Maryland -- WestVirginia
+Maryland -- Delaware
+Maryland -- Pennsylvania;
+Massachusetts -- NewYork
+Massachusetts -- RhodeIsland
+Massachusetts -- Vermont
+Massachusetts -- Connecticut 
+Massachusetts-- NewHampshire;
+Michigan -- Ohio
+Michigan -- Wisconsin
+Michigan -- Illinois
+Michigan -- Indiana 
+Michigan -- Minnesota;
+Minnesota -- NorthDakota
+Minnesota -- SouthDakota
+Minnesota -- Wisconsin
+Minnesota -- Iowa
+Minnesota -- Michigan;
+Mississippi -- Louisiana 
+Mississippi -- Tennessee 
+Mississippi -- Alabama
+Mississippi -- Arkansas;
+Missouri -- Nebraska
+Missouri -- Oklahoma
+Missouri -- Tennessee
+Missouri -- Arkansas
+Missouri -- Illinois
+Missouri -- Iowa
+Missouri -- Kansas 
+Missouri -- Kentucky;
+Montana -- SouthDakota
+Montana -- Wyoming
+Montana -- Idaho
+Montana -- NorthDakota;
+Nebraska -- Missouri
+Nebraska -- SouthDakota
+Nebraska -- Wyoming
+Nebraska -- Colorado
+Nebraska -- Iowa
+Nebraska -- Kansas;
+Nevada -- Idaho 
+Nevada-- Oregon
+Nevada -- Utah
+Nevada -- Arizona
+Nevada -- California;
+NewHampshire -- Vermont
+NewHampshire -- Maine
+NewHampshire -- Massachusetts;
+NewJersey -- Pennsylvania
+NewJersey -- Delaware
+NewJersey -- NewYork;
+NewMexico -- Oklahoma
+NewMexico -- Texas
+NewMexico -- Utah
+NewMexico -- Arizona
+NewMexico -- Colorado;
+NewYork -- Pennsylvania
+NewYork -- RhodeIsland
+NewYork -- Vermont
+NewYork -- Connecticut
+NewYork -- Massachusetts
+NewYork -- NewJersey;
+NorthCarolina -- Tennessee
+NorthCarolina -- Virginia
+NorthCarolina -- Georgia
+NorthCarolina -- SouthCarolina;
+NorthDakota -- SouthDakota
+NorthDakota -- Minnesota
+NorthDakota -- Montana;
+Ohio -- Michigan 
+Ohio-- Pennsylvania 
+Ohio-- WestVirginia 
+Ohio-- Indiana 
+Ohio-- Kentucky;
+Oklahoma -- Missouri 
+Oklahoma-- NewMexico 
+Oklahoma-- Texas
+Oklahoma -- Arkansas
+Oklahoma -- Colorado 
+Oklahoma-- Kansas;
+Oregon -- Nevada 
+Oregon-- Washington 
+Oregon-- California 
+Oregon-- Idaho;
+Pennsylvania -- NewYork 
+Pennsylvania-- Ohio 
+Pennsylvania-- WestVirginia 
+Pennsylvania-- Delaware 
+Pennsylvania-- Maryland 
+Pennsylvania-- NewJersey;
+RhodeIsland -- Massachusetts 
+RhodeIsland-- NewYork 
+RhodeIsland-- Connecticut;
+SouthCarolina -- NorthCarolina 
+SouthCarolina-- Georgia;
+SouthDakota -- Nebraska 
+SouthDakota-- NorthDakota 
+SouthDakota-- Wyoming 
+SouthDakota-- Iowa 
+SouthDakota-- Minnesota 
+SouthDakota-- Montana;
+Tennessee -- Mississippi 
+Tennessee-- Missouri 
+Tennessee-- NorthCarolina 
+Tennessee-- Virginia 
+Tennessee-- Alabama 
+Tennessee-- Arkansas 
+Tennessee-- Georgia 
+Tennessee-- Kentucky;
+Texas -- NewMexico 
+Texas-- Oklahoma 
+Texas-- Arkansas 
+Texas-- Louisiana;
+Utah -- Nevada 
+Utah-- NewMexico 
+Utah-- Wyoming 
+Utah-- Arizona 
+Utah-- Colorado 
+Utah-- Idaho;
+Virginia -- WestVirginia 
+}
